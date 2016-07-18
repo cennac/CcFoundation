@@ -3,27 +3,14 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.cennac</groupId>
     <artifactId>ccfoundation-project</artifactId>
-    <version>0.0.1.Beta</version>
-    <name>CcFoundation :: Project</name>
+    <version>1.0-SNAPSHOT</version>
+    <name>CcFoundation</name>
     <packaging>pom</packaging>
-    <properties>
-        <java.version>1.8</java.version>
-    </properties>
-    <build>
-        <finalName>ccfoundation</finalName>
-        <plugins>
-            <!-- compiler插件, 设定JDK版本 -->
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.3</version>
-                <configuration>
-                    <source>${java.version}</source>
-                    <target>${java.version}</target>
-                    <showWarnings>true</showWarnings>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
+
+
+    <modules>
+        <module>ccfoundation-parent</module>
+    </modules>
+
 
 </project>
