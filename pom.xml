@@ -7,10 +7,10 @@
     <name>CcFoundation :: Project</name>
     <packaging>pom</packaging>
     <properties>
-        <java.version>1.7</java.version>
+        <java.version>1.8</java.version>
     </properties>
     <build>
-        <finalName>ssms</finalName>
+        <finalName>ccfoundation</finalName>
         <plugins>
             <!-- compiler插件, 设定JDK版本 -->
             <plugin>
