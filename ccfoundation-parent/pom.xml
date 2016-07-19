@@ -12,6 +12,7 @@
     <modules>
         <module>../ccfoundation-web</module>
         <module>../ccfoundation-common</module>
+        <module>../ccfoundation-utils</module>
     </modules>
 
     <artifactId>ccfoundation-parent</artifactId>

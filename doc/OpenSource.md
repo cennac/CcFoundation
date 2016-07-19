@@ -19,4 +19,4 @@ UI
 https://github.com/amazeui
 https://github.com/almasaeed2010/AdminLTE/
 
-
+互联网架构 SOA（Dubbo）+配置中心（ZK）+消息中间件MQ（RocketMq）+高速缓存（Redis）互联网架构
